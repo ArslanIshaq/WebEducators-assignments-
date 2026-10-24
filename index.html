@@ -503,27 +503,10 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark sleek-navbar">
           <!-- Left Side: Logo -->
-          <a
-            class="navbar-brand fw-bold d-flex align-items-center gap-2 text-white"
-            href="#home"
-          >
-            <img
-              src="images/logo.png"
-              alt="Logo"
-              class="img-fluid"
-              style="max-height: 50px; width: auto"
-              onerror="
-                this.style.display = 'none';
-                document.getElementById('text-logo').style.display = 'inline';
-              "
-            />
-            <span id="text-logo" style="display: none"
-              ><i class="bi bi-stars text-warning fs-4"></i> BrandLogo<span
-                class="text-warning"
-                >.</span
-              ></span
-            >
-          </a>
+<a class="navbar-brand fw-bold d-flex align-items-center gap-2 text-white" href="#home">
+  <!-- Leading Slash lagane se Vercel root directory se file uthata hai -->
+  <img src="/images/logo.png" alt="Logo" class="img-fluid" style="max-height: 50px; width: auto;" />
+</a>
 
           <!-- Mobile Toggler Button -->
           <button
